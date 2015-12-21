@@ -1,16 +1,23 @@
-my_name = 'Zed'
-my_age = 36
-my_height = 74 # inches
-my_weight = 170 # lbs
-my_eyes = 'Brown'
-my_teeth = 'White'
-my_hair = 'Brown'
+# 1 lb = 0.0453592 kg
+# 1 inch = 2.54 centimeters
 
-puts "Let's talk about #{my_name}."
-puts "He's #{my_height} inces tall."
-puts "He's #{my_weight} punds heavy."
+name = 'Zed'
+age = 36
+height = 74.0 # inches
+weight = 170.0 # lbs
+eyes = 'Brown'
+teeth = 'White'
+hair = 'Brown'
+centimeters = height * 2.54
+kgs = weight * 0.453592
+
+puts "Let's talk about #{name}."
+puts "He's #{height} inces tall."
+puts "He's #{weight} punds heavy."
 puts "Actually that's not too heavy."
-puts "He's got #{my_eyes} eyes and #{my_hair} hair"
-puts "His teeth are usually #{my_teeth} depending on the coffee."
+puts "He's got #{eyes} eyes and #{hair} hair"
+puts "His teeth are usually #{teeth} depending on the coffee."
 
-puts "If I add #{my_age}, #{my_height}, and #{my_weight} I get #{my_age + my_height + my_weight}."
+puts "If I add #{age}, #{height}, and #{weight} I get #{age + height + weight}."
+puts "If I convert pound to kilograms, I weigh #{kgs} kilograms."
+puts "If I convert inces to centimeters, I'm #{centimeters} centimeters tall."
