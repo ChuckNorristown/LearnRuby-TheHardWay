@@ -21,7 +21,7 @@ line2 = $stdin.gets.chomp
 print "Line 3: "
 line3 = $stdin.gets.chomp
 
-puts "I'm going to write these to the file."
+# puts "I'm going to write these to the file."
 
 # target.write(line1)
 # target.write("\n")
@@ -35,6 +35,7 @@ puts "I'm going to write these to the file."
 
 
 puts """
+I'm going to write these to the file.
 This is #{line1}.
 This is #{line2}.
 This is #{line3}.
