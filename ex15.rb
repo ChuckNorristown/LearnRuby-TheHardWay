@@ -1,3 +1,5 @@
+#OPENING FILE WITH ARGV
+
 # filename = ARGV.first
 
 # txt = open(filename)
@@ -11,6 +13,9 @@
 # txt_again = open(file_again)
 
 # print txt_again.read
+#=====================================
+
+#OPENING FILE WITH CHOMP
 
 prompt = '> '
 
