@@ -1,7 +1,6 @@
 puts "Let's practice everything."
 puts 'You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.'
 
-# the <<END is a "heredoc". See the Student Questions.
 poem = <<END
 \tThe lovely world
 with logic so firlmly planted
