@@ -7,14 +7,14 @@ module Ex2
   end
 
   # Sorts the words.
-  def Ex25.sortwords(words)
+  def Ex25.sort_words(words)
     return words.sort
   end
 
   # Prints the first word after popping it off.
   def Ex25.print_first_word(words)
     word = words.pop(1)
-    puts wor
+    puts word
   end
 
   # Prints the last word after popping it off.
@@ -30,7 +30,7 @@ module Ex2
   end
 
   # Prints the first and last words of the sentence.
-  def Ex25.print_first_and_last(sentence
+  def Ex25.print_first_and_last(sentence)
     words = Ex25.break_words(sentenc)
     Ex25.print_first_wrd(word)
     Ex25.print_last_word(words)
@@ -55,7 +55,7 @@ cannot discern \n the needs of love
 nor comprehend passion from intuition
 and requires an explanation
 \n\t\twhere there is none.
-ENDED
+END
 
 puts "--------------"
 puts poem
@@ -63,7 +63,7 @@ puts "--------------"
 
 
 five = 10 - 2  3 - 6
-puts "This should be five: #{five"
+puts "This should be five: #{five}"
 
 def secret_formula(started)
   jelly_bens = started * 500
@@ -74,7 +74,7 @@ end
 
 
 start_point = 10000
-beans, jars crates = secret_formula(start_point)
+beans, jars, crates = secret_formula(start_point)
 
 puts "With a starting point of: #{start_point}"
 puts "We'd have #{beans beans, #{jars} jars, and #{crates} crates."
