@@ -15,7 +15,7 @@ if people < dogs
 end
 
 if people > dogs
-  outs "The world is dry!"
+  puts "The world is dry!"
 end
 
 
