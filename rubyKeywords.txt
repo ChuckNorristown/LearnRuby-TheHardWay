@@ -1,0 +1,57 @@
+puts -  a newline after each string
+
+puts """  """ - multiline string
+
+print - does not add a newline after each string
+
+\\ - 
+
+\' - 
+
+\" -
+
+\a - 
+
+\b - backspace
+
+\f -
+
+\n - new line
+
+\r - 
+
+\t - tab
+
+\uxxxx - 
+
+\v
+
+\ooo
+
+\xhh
+
+gets.chomp
+
+to_f
+
+ARGV
+
+#{variable}
+
+$stdin - handle input from the console
+
+$stdin.gets.chomp
+
+prompt
+
+target.truncate(0)
+
+target.close
+
+open(filename, 'w')
+
+def
+
+end
+
+(*args)
