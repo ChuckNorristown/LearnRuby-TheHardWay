@@ -5,7 +5,7 @@ false && true [FALSE]
 1 == 1 || 2 != 1 [TRUE]
 true && 1 == 1 [TRUE]
 
-false && 0 != 0 [TRUE] => false
+false && 0 != 0 [TRUE] => FALSE
 
 true || 1 == 1 [TRUE]
 "test" == "testing" [FALSE]
@@ -16,9 +16,13 @@ true || 1 == 1 [TRUE]
 !(1 == 1 && 0 != 1) [FALSE]
 !(10 == 1 || 1000 == 1000) [FALSE]
 
-!(1 != 10 || 3 == 4) [TRUE] => false
+!(1 != 10 || 3 == 4) [TRUE] => TRUE
 
 !("testing" == "testing" && "Zed" == "Cool Guy") [TRUE]
 1 == 1 && (!("testing" == 1 || 1 == 0)) [TRUE]
 "chunky" == "bacon" && (!(3 == 4 || 3 == 3)) [FALSE] 
 3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun")) [FALSE]
+
+
+
+any && expression that has a false is immediately false, so you can stop there. Any || expression that has a true is immediately true, so you can stop there. But make sure that you can process the whole expression because later it becomes helpful.
